@@ -50,7 +50,7 @@
         </div><!-- .entry-summary -->
       <?php else : ?>
         <?php if ( '' == get_the_post_thumbnail() ) : ?>    
-            <div style="float: left;">
+            <div style="float: left;margin-left:20px;">
         <?php else : ?>
             <div class="paragraph">
         <?php endif; ?>        

@@ -31,7 +31,7 @@ h1.entry-title {
     margin-left: auto;
     margin-right: auto;
     font-size: 50px;
-    max-width: 880px;
+    max-width: 830px;
 	border-top-right-radius: 8px;
     border-top-left-radius: 8px;
   /*  background-color: rgba(255,255,255,.6);*/
@@ -52,6 +52,13 @@ article div p {
 
 .entry-header {
 	float: left;
+	border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    background-color: rgba(212, 212, 212, 0.6);
+    /*max-width: 58%;*/
+    margin: auto;
+    margin-top:20px;
+    padding:15px;
 }
 
 #triggers-wrapper {
@@ -68,7 +75,7 @@ article div p {
 
 .post_image {
 	float: left;
-	margin-right: 10px;
+	margin-right: 20px;
 }
 
 .author-bubble {
@@ -93,5 +100,10 @@ article div p {
 	line-height: inherit;
 }
 .paragraph {
-	margin-top: 150px;
+	margin:240px 20px 10px;
+}
+
+.entry-wrap {
+	background-color: rgba(255,255,255,1);
+	border-radius: 8px;
 }
